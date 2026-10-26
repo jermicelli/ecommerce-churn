@@ -1,0 +1,19 @@
+# Raw CSVs (~32 GB) and generated feature tables
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# MLflow runs and artifacts (local tracking)
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Trained model (58 MB, rebuilt by src/train_v3.py)
+models/*.joblib
+
+# Editor
+.vscode/
